@@ -1,0 +1,89 @@
+{
+    "name": "A1","level":1,"color":"#FFA500",
+    "children": [{
+        "name": "A2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "A3","level":3,"color":"#6AA121",
+            "coupling_id": 1,
+            "children": [{
+                "name": "A4","level":4,"color":"#306EFF",
+                "size": 3938
+            }, {
+                "name": "B4","level":4,"color":"#306EFF",
+                "size": 3812
+            }]
+        }, {
+            "name": "B3","level":3,"color":"#6AA121",
+            "children": [{
+                "name": "C4","level":4,"color":"#306EFF",
+                "size": 3534
+            }]
+        }]
+    }, {
+        "name": "B2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "C3","level":3,"color":"#6AA121",
+            "size": 17010
+        }]
+    }, {
+        "name": "C2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "E3","level":3,"color":"#6AA121",
+            "children": [ {
+                "name": "G4","level":4,"color":"#306EFF",
+                "size": 1314
+            }, {
+                "name": "H4","level":4,"color":"#306EFF",
+                "size": 2220
+            }]
+        }]
+    }, {
+        "name": "D2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "G3","level":3,"color":"#6AA121",
+            "size": 8833
+        }]
+    },{
+        "name": "E2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "I3","level":3,"color":"#6AA121",
+            "size": 1082
+        }]
+    }, {
+        "name": "F2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "K3","level":3,"color":"#6AA121",
+            "size": 1616
+        }]
+    }, {
+        "name": "G2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "M3","level":3,"color":"#6AA121",
+            "size": 2105
+        }]
+    }, {
+        "name": "H2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "O3","level":3,"color":"#6AA121",
+            "children": [{
+                "name": "I4","level":4,"color":"#306EFF",
+                "size": 9354
+            }, {
+                "name": "J4","level":4,"color":"#306EFF",
+                "size": 1233
+            }]
+        }]
+    }, {
+        "name": "I2","level":2,"color":"#6960EC",
+        "children": [{
+            "name": "Q3","level":3,"color":"#6AA121",
+            "children": [{
+                "name": "K4","level":4,"color":"#306EFF",
+                "size": 1302
+            }, {
+                "name": "L4","level":4,"color":"#306EFF",
+                "size": 24593
+            }]
+        }]
+    }]
+}
