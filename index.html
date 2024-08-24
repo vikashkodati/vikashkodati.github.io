@@ -1,118 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Home - Vikash's blog</title>
-
-    <link rel="stylesheet" href="./fonts/Serif/cmun-serif.css" />
-    <link rel="stylesheet" href="./fonts/Serif-Slanted/cmun-serif-slanted.css" />
-
-    <!--BOOTSTRAP-->
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!--mobile first-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--removed html from url but still is html-->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <!--font awesome-->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-    <!--fonts: allan & cardo-->
-    <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
-
-    <link href="./css/sticky-footer-navbar.css" rel="stylesheet">
-
-    <link href="./css/default.css" rel="stylesheet">
-    <link href="./css/index.css" rel="stylesheet">
-
-    <link href="./css/inlineDisqussions.css" rel="stylesheet">
-
-    <!--Highlight-->
-    <link href="./highlight/styles/github.css" rel="stylesheet">
-
-    <link href="./favicon.ico" rel="shortcut icon" />
-
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-49811703-1', 'vikashkodati.github.io');
-        ga('require', 'linkid', 'linkid.js');
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview');
-
-    </script>
-
-
-    <script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
+    <title>Vikash's Personal Space</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-    <div id="wrap">
-
-        <!--Toggle header for mobile-->
-        <!--normal header-->
-
-        <!--         
-        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand active" href="index.html" id="home">Vikash's blog</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html"><span class="glyphicon glyphicon-pencil"></span> Blog</a></li>
-                        <li><a href="./about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
-                        <li><a href="./experience.html"><span class="glyphicon glyphicon-user"></span> Experience</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Vikash's Space</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cv.html">CV</a>
+                    </li>
+                </ul>
             </div>
-        </nav>  
-    -->
-        <!-- Navbar placeholder -->
-        <div id="navbar-placeholder"></div>
-
-        <!-- Main content of the page -->
-        <div class="content">
-            <h2>My content comes here</h2>
         </div>
+    </nav>
 
-        <!-- jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <div class="container mt-5">
+        <h1>Welcome to My Personal Space</h1>
+        <p>This is where you can add your main content.</p>
+    </div>
 
-        <script src="./bootstrap/js/bootstrap.min.js"></script>
-
-        <script src="./highlight/highlight.pack.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-
-        <script src="./js/footnotes.js"></script>
-
-        <script src="./js/inlineDisqussions.js"></script>
-
-        <!-- Include the script to load the navbar -->
-        <script src="loadNavbar.js"></script>
-
-
-        <noscript>Enable JavaScript for footnotes, Disqus comments, and other cool stuff.</noscript>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

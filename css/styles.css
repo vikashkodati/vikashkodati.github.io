@@ -1,0 +1,37 @@
+/* Place this file in a 'css' folder in your GitHub Pages repository */
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffd700 !important; /* Bright gold color for the brand */
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #00ffff !important; /* Bright cyan color for nav links */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff69b4 !important; /* Hot pink color on hover */
+}
+
+h1 {
+    color: #4b0082; /* Indigo color for headings */
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+}
