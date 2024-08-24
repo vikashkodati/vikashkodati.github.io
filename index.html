@@ -8,33 +8,22 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html">Vikash's Space</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./experience.html">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cv.html">CV</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Include the navbar here -->
+    <div id="navbar-placeholder"></div>
 
     <div class="container mt-5">
-        <h1>Welcome to My Personal Space</h1>
-        <p>This is where you can add your main content.</p>
+        <h1 class="mb-4">Welcome to My Personal Space</h1>
+        <p>This is where you can add your main content. The background is now white, and the text colors have been adjusted for better readability and visual appeal.</p>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Load the navbar
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
