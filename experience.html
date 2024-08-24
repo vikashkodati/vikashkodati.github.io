@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>New Page - Vikash's blog</title>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/default.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Vikash's Personal Space</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-    <!-- <div id="wrap"> -->
+    <!-- Navbar placeholder -->
+    <div id="navbar-placeholder"></div>
 
-        <!-- Navbar placeholder -->
-        <div id="navbar-placeholder"></div>
+    <div class="container mt-5">
+        <h1>Experience</h1>
+        <p>Welcome to the experience page! Here you can add information about your professional experience.</p>
+    </div>
 
-        <div class="container">
-            <h1>Experience</h1>
-            <p>Welcome to the new page!</p>
-        </div>
-    <!-- </div> -->
-
-    <!-- Include the script to load the navbar -->
-    <script src="loadNavbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
 </body>
-
 </html>
